@@ -28,7 +28,6 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [neon.tech](https://neon.tech) *     | 500 MB     | 0.25 – 2 | 1 GB   | [PITR for 24 hours](https://neon.tech/docs/manage/backups)                                                                                                                              |
 | [rapidapp.io](https://rapidapp.io/)  | 20 MB      | N/A      | N/A    | ❌                                                                                                                                                                                       |
 | [supabase.com](https://supabase.com) | 500 MB     | N/A      | 500 MB | ❌                                                                                                                                                                                       |
-| [turso.tech](https://turso.tech)     | 5 GB       | N/A      | 1 GB   | [PITR for 24 hours](https://docs.turso.tech/features/point-in-time-recovery)                                                                                                            |
 | [xata.io](https://xata.io/)          | 15 GB      | N/A      | N/A    | [Daily backups. Restoration is available once per month](https://xata.io/docs/concepts/pricing#daily-backups)                                                                          |
 
 \* **Neon** has auto-scaling enabled by default. It's recommended to disable it to avoid exceeding the 190 compute hours/month quota.
@@ -45,7 +44,6 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [neon.tech](https://neon.tech)       | 5 GB                                                                                                                                                     | 190 compute hours      | [Auto pause after 5 minutes of inactivity (cannot be disabled on free plan)](https://neon.tech/docs/guides/scale-to-zero-guide).                                                      |
 | [rapidapp.io](https://rapidapp.io/)  | —                                                                                                                                                        | —                      | No pause                                                                                                                                                                              |
 | [supabase.com](https://supabase.com) | 5 GB                                                                                                                                                     | —                      | [May pause after 7 days of low activity](https://supabase.com/docs/guides/deployment/going-into-prod#availability).                                                                   |
-| [turso.tech](https://turso.tech)     | 5 GB                                                                                                                                                     | 500M reads, 10M writes | [Auto pause after 1 hour of inactivity (resumes with slight delay)](https://docs.turso.tech/features/scale-to-zero).                                                                  |
 | [xata.io](https://xata.io/)          | [Concurrency limits](https://xata.io/docs/concepts/pricing#concurrency-limit), [Requests rate limits](https://xata.io/docs/concepts/pricing#rate-limit). | -                      | [Marked as inactive if there is no activity registered within 30 days](https://xata.io/docs/inactive-branches)                                                                        |
 
 ### 🌍 Regions & Registration
@@ -58,7 +56,6 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [neon.tech](https://neon.tech)       | Email, Google, GitHub, Microsoft | US, Canada, Europe, Asia                                                        |
 | [rapidapp.io](https://rapidapp.io/)  | GitHub                           | N/A                                                                             |
 | [supabase.com](https://supabase.com) | Email, GitHub                    | US, Europe, Asia                                                                |
-| [turso.tech](https://turso.tech)     | Email, Google, GitHub            | US, Europe, Asia                                                                |
 | [xata.io](https://xata.io/)          | Email, Google, GitHub            | [US, Europe, Australia](https://xata.io/docs/getting-started/available-regions) |
 
 \* **Filess** automatically selects a region based on your location. In my case, it was Nuremberg with no way to change the region manually.
