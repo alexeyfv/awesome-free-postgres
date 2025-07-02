@@ -65,3 +65,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 Found a new service? Something outdated or inaccurate?
 
 Check out [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=alexeyfv/awesome-free-postgres&type=Date)](https://www.star-history.com/#alexeyfv/awesome-free-postgres&Date)
