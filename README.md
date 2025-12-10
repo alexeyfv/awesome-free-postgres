@@ -26,7 +26,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [filess.io](https://filess.io)                                | 2 × 10 MB  | N/A | N/A    | Weekly backups                                                                                                                                                                          |
 | [mkdb.sh](https://www.mkdb.sh)                                | 10 × 20 MB | N/A | N/A    | ❌                                                                                                                                                                                      |
 | [supabase.com](https://supabase.com)                          | 500 MB     | N/A | 500 MB | ❌                                                                                                                                                                                      |
-| [xata.io](https://lite.xata.io/)                              | 15 GB      | N/A | N/A    | [Daily backups. Restoration is available once per month](https://xata.io/docs/concepts/pricing#daily-backups)                                                                           |
+| ⚠️ [xata.io](https://lite.xata.io/)                              | 15 GB      | N/A | N/A    | [Daily backups. Restoration is available once per month](https://xata.io/docs/concepts/pricing#daily-backups)                                                                           |
 
 ### 🛑 Limits
 
@@ -38,7 +38,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [filess.io](https://filess.io)       | —                                                                                                                                                        | —            | No pause                                                                                                                                           |
 | [mkdb.sh](https://www.mkdb.sh)       | —                                                                                                                                                        | —            | No pause                                                                                                                                           |
 | [supabase.com](https://supabase.com) | 5 GB                                                                                                                                                     | —            | [May pause after 7 days of low activity](https://supabase.com/docs/guides/deployment/going-into-prod#availability).                                |
-| [xata.io](https://lite.xata.io/)     | [Concurrency limits](https://xata.io/docs/concepts/pricing#concurrency-limit), [Requests rate limits](https://xata.io/docs/concepts/pricing#rate-limit). | -            | [Marked as inactive if there is no activity registered within 30 days](https://xata.io/docs/inactive-branches)                                     |
+| ⚠️ [xata.io](https://lite.xata.io/)     | [Concurrency limits](https://xata.io/docs/concepts/pricing#concurrency-limit), [Requests rate limits](https://xata.io/docs/concepts/pricing#rate-limit). | -            | [Marked as inactive if there is no activity registered within 30 days](https://xata.io/docs/inactive-branches)                                     |
 
 ### 🌍 Regions & Registration
 
@@ -48,9 +48,11 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [filess.io](https://filess.io) \*    | Email, Google                    | US, Europe, Asia                                                                |
 | [mkdb.sh](https://www.mkdb.sh)       | GitHub                           | US, Europe, Asia                                                                |
 | [supabase.com](https://supabase.com) | Email, GitHub                    | US, Europe, Asia                                                                |
-| [xata.io](https://lite.xata.io/)     | Email, Google, GitHub            | [US, Europe, Australia](https://xata.io/docs/getting-started/available-regions) |
+| ⚠️ [xata.io](https://lite.xata.io/)     | Email, Google, GitHub            | [US, Europe, Australia](https://xata.io/docs/getting-started/available-regions) |
 
 \* **Filess** automatically selects a region based on your location. In my case, it was Nuremberg with no way to change the region manually.
+
+⚠️ Xata Lite will be deprecated on February 28, 2026. 
 
 ## 🤝 Contributing
 
