@@ -29,7 +29,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [prisma.io](https://prisma.io/pricing)                                                                           | 500 MB     | N/A     | N/A     | ❌                                                                                                                                                                                       |
 | [nhost.io](https://nhost.io/)                                                                                    | 1 GB       | 0.5 CPU | 256 MiB | ❌                                                                                                                                                                                       |
 | [tigerdata.com](https://www.tigerdata.com/blog/introducing-agentic-postgres-free-plan-experiment-ai-on-postgres) | 2 x 750 MB | N/A     | N/A     | 24h PITR                                                                                                                                                                                |
-| [rivestack.io](https://rivestack.io)                                                                                                                     | 2 GB       | N/A     | N/A     | ❌                                                                                                                                                            |
+| [rivestack.io](https://docs.rivestack.io/pricing) \*\*                                                                                                   | 2 GB       | N/A     | N/A     | ❌                                                                                                                                                            |
 
 ### 🛑 Limits
 
@@ -44,7 +44,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [prisma.io](https://prisma.io/pricing)                                                                           | 100,000 operations / month | —                    | No pause                                                                                                                                           |
 | [nhost.io](https://nhost.io/)                                                                                    | 5 GB egress                | 1 project, 1 memeber | [Paused after 1 week inactivity](https://nhost.io/pricing)                                                                                         |
 | [tigerdata.com](https://www.tigerdata.com/blog/introducing-agentic-postgres-free-plan-experiment-ai-on-postgres) | —                          | —                    | No pause                                                                                                                                           |
-| [rivestack.io](https://rivestack.io)                                                                             | —                          | —                    | No pause                                                                                                                                           |
+| [rivestack.io](https://rivestack.io)                                                                             | —                          | 1 database, 5 connections | No pause                                                                                                                                      |
 
 ### 🌍 Regions & Registration
 
@@ -60,6 +60,8 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [rivestack.io](https://rivestack.io)                                                                        | Email, Google, GitHub            | US, Europe                      |
 
 \* **Filess** automatically selects a region based on your location. In my case, it was Nuremberg with no way to change the region manually.
+
+\*\* **Rivestack** comes with the [pgvector](https://github.com/pgvector/pgvector) extension pre-installed on all databases, including the free tier.
 
 ## 🤝 Contributing
 
