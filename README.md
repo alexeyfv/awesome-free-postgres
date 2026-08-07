@@ -34,7 +34,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 
 \*\* **Rivestack** comes with the [pgvector](https://github.com/pgvector/pgvector) extension pre-installed on all databases, including the free tier.
 
-\*\*\* **Miget's** free tier is a single 0.1 CPU / 256 MiB / 1 GB resource shared by every workload on it, so the database gets the whole quota only when nothing else runs there. [pgvector](https://github.com/pgvector/pgvector), PostGIS and TimescaleDB are among the [extensions available on every database](https://docs.miget.com/databases/postgresql#postgresql-extensions), and public IPv4/IPv6 access is optional.
+\*\*\* **Miget's** free tier is a single 0.1 CPU / 256 MiB / 1 GB resource shared by every workload on it, so the database gets the whole quota only when nothing else runs there. [pgvector](https://github.com/pgvector/pgvector), PostGIS, TimescaleDB and pg_cron are among the [extensions available on every database](https://docs.miget.com/databases/postgresql#postgresql-extensions), including ones that normally need a server restart to enable. Public IPv4/IPv6 access is optional.
 
 ### 🛑 Limits
 
