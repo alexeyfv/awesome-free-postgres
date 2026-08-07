@@ -30,11 +30,11 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [nhost.io](https://nhost.io/)                                                                                    | 1 GB       | 0.5 CPU | 256 MiB | ❌                                                                                                                                                                                      |
 | [tigerdata.com](https://www.tigerdata.com/blog/introducing-agentic-postgres-free-plan-experiment-ai-on-postgres) | 2 x 750 MB | N/A     | N/A     | 24h PITR                                                                                                                                                                                |
 | [rivestack.io](https://docs.rivestack.io/pricing) \*\*                                                           | 2 GB       | N/A     | N/A     | ❌                                                                                                                                                                                      |
-| [miget.com](https://miget.com/plans) \*\*\*                                                                      | 1 GB       | 0.1     | 256 MiB | ❌                                                                                                                                                                                      |
+| [miget.com](https://miget.com/blog/free-postgresql-hosting-public-access) \*\*\*                                                                      | 1 GB       | 0.1     | 256 MiB | ❌                                                                                                                                                                                      |
 
 \*\* **Rivestack** comes with the [pgvector](https://github.com/pgvector/pgvector) extension pre-installed on all databases, including the free tier.
 
-\*\*\* **Miget's** free tier is a single 0.1 CPU / 256 MiB / 1 GB resource shared by every workload on it, so the database gets the whole quota only when nothing else runs there. [pgvector](https://github.com/pgvector/pgvector) is included, and public IPv4/IPv6 access is optional.
+\*\*\* **Miget's** free tier is a single 0.1 CPU / 256 MiB / 1 GB resource shared by every workload on it, so the database gets the whole quota only when nothing else runs there. [pgvector](https://github.com/pgvector/pgvector), PostGIS and TimescaleDB are among the [extensions available on every database](https://docs.miget.com/databases/postgresql#postgresql-extensions), and public IPv4/IPv6 access is optional.
 
 ### 🛑 Limits
 
@@ -50,7 +50,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [nhost.io](https://nhost.io/)                                                                                    | 5 GB egress                | 1 project, 1 memeber      | [Paused after 1 week inactivity](https://nhost.io/pricing)                                                                                         |
 | [tigerdata.com](https://www.tigerdata.com/blog/introducing-agentic-postgres-free-plan-experiment-ai-on-postgres) | —                          | —                         | No pause                                                                                                                                           |
 | [rivestack.io](https://rivestack.io)                                                                             | —                          | 1 database, 5 connections | No pause                                                                                                                                           |
-| [miget.com](https://miget.com/plans)                                                                             | —                          | 1 resource, personal accounts only | No pause                                                                                                                          |
+| [miget.com](https://miget.com/blog/free-postgresql-hosting-public-access)                                                                             | —                          | 1 resource, personal accounts only | No pause                                                                                                                          |
 
 ### 🌍 Regions & Registration
 
@@ -64,7 +64,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [nhost.io](https://nhost.io/)                                                                                | GitHub, Email                    | US, Europe, Asia, South America |
 | [tigerdata.com](https://tigerdata.com/blog/introducing-agentic-postgres-free-plan-experiment-ai-on-postgres) | Google, Email                    | US                              |
 | [rivestack.io](https://rivestack.io)                                                                         | Email, Google, GitHub            | US, Europe                      |
-| [miget.com](https://miget.com/plans)                                                                         | Email, Google, GitHub            | US, Europe                      |
+| [miget.com](https://miget.com/blog/free-postgresql-hosting-public-access)                                                                         | Email, Google, GitHub            | US, Europe                      |
 
 \* **Filess** automatically selects a region based on your location. In my case, it was Nuremberg with no way to change the region manually.
 
