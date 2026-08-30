@@ -30,8 +30,11 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [nhost.io](https://nhost.io/)                                                                                    | 1 GB       | 0.5 CPU | 256 MiB | ❌                                                                                                                                                                                      |
 | [tigerdata.com](https://www.tigerdata.com/blog/introducing-agentic-postgres-free-plan-experiment-ai-on-postgres) | 2 x 750 MB | N/A     | N/A     | 24h PITR                                                                                                                                                                                |
 | [rivestack.io](https://docs.rivestack.io/pricing) \*\*                                                           | 2 GB       | N/A     | N/A     | ❌                                                                                                                                                                                      |
+| [layerbase.com](https://layerbase.com/pricing) \*\*\*                                                            | 5 GB       | 0.5     | 0.5 GB  | 1 manual backup slot                                                                                                                                                                    |
 
 \*\* **Rivestack** comes with the [pgvector](https://github.com/pgvector/pgvector) extension pre-installed on all databases, including the free tier.
+
+\*\*\* **Layerbase** free tier includes 7 other database engines besides PostgreSQL (MariaDB, SQLite, DuckDB, libSQL, Redis, Valkey, TypeDB) from the same account, with 2 databases total.
 
 ### 🛑 Limits
 
@@ -47,6 +50,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [nhost.io](https://nhost.io/)                                                                                    | 5 GB egress                | 1 project, 1 memeber      | [Paused after 1 week inactivity](https://nhost.io/pricing)                                                                                         |
 | [tigerdata.com](https://www.tigerdata.com/blog/introducing-agentic-postgres-free-plan-experiment-ai-on-postgres) | —                          | —                         | No pause                                                                                                                                           |
 | [rivestack.io](https://rivestack.io)                                                                             | —                          | 1 database, 5 connections | No pause                                                                                                                                           |
+| [layerbase.com](https://layerbase.com)                                                                           | N/A                        | 2 databases               | [Sleeps after 60 min idle, wakes automatically on connect in ~1-5 s](https://layerbase.com/docs/database-lifecycle). Archived after 14 days asleep; restorable from the dashboard. |
 
 ### 🌍 Regions & Registration
 
@@ -60,6 +64,7 @@ To be included in this list, a PostgreSQL provider must meet all of the followin
 | [nhost.io](https://nhost.io/)                                                                                | GitHub, Email                    | US, Europe, Asia, South America |
 | [tigerdata.com](https://tigerdata.com/blog/introducing-agentic-postgres-free-plan-experiment-ai-on-postgres) | Google, Email                    | US                              |
 | [rivestack.io](https://rivestack.io)                                                                         | Email, Google, GitHub            | US, Europe                      |
+| [layerbase.com](https://layerbase.com)                                                                       | GitHub, Google                   | US                              |
 
 \* **Filess** automatically selects a region based on your location. In my case, it was Nuremberg with no way to change the region manually.
 
